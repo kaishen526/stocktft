@@ -1,4 +1,4 @@
-# Temporal Fusion Transformer - NEA
+# Temporal Fusion Transformer Based Stock Predictor
 <p align="center">
       <a href="https://www.python.org/">
         <img src="https://img.shields.io/badge/Python-3.12-ff69b4.svg" /></a>

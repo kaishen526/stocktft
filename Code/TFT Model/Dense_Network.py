@@ -1,17 +1,3 @@
-# ---------------------------------------------------#
-#
-#   File       : Dense_Network.py
-#   Author     : Soham Deshpande
-#   Date       : November 2021
-#   Description: Dense block
-#
-#
-#
-#
-# ----------------------------------------------------#
-
-
-
 import numpy as np
 
 class Dense_Network:

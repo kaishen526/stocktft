@@ -1,10 +1,24 @@
-beautifulsoup4==4.10.0
-matplotlib==3.4.3
-numpy==1.20.3
-pandas==1.3.4
-psycopg==3.0.7
-pytorch_forecasting==0.10.1
-pytorch_lightning==1.5.10
-requests==2.26.0
-torch==1.10.1
-yfinance==0.1.70
+# For reading data and manipulation
+pandas>=1.3.0
+numpy>=1.21.0
+
+# For plotting (matplotlib), using 'Agg' backend on server
+matplotlib>=3.4.0
+
+# For HTTP requests (Alpha Vantage)
+requests>=2.25.1
+
+# For downloading stock data
+yfinance>=0.1.70
+
+# For reading Excel files (WSB sentiment data)
+openpyxl>=3.0.9
+
+# For PyTorch and GPU acceleration (ensure CUDA drivers on server)
+torch>=1.13.0
+
+# For PyTorch Lightning (training loops, logging)
+pytorch-lightning>=1.9.0
+
+# For PyTorch Forecasting (TFT model)
+pytorch-forecasting>=0.10.3

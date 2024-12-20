@@ -1,16 +1,3 @@
-# ---------------------------------------------------#
-#
-#   File       : Imports.py
-#   Author     : Soham Deshpande
-#   Date       : July 2021
-#   Description: All imports
-#
-#
-#
-# ----------------------------------------------------#
-
-
-#General
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

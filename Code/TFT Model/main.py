@@ -1,9 +1,3 @@
-#------------------#
-#   File: Main.py
-#   Description: Main file to run the TFT model with user input via a PySimpleGUI-based UI
-#
-#------------------#
-
 import datetime
 import PySimpleGUI as sg
 from PytorchForecasting import TFT

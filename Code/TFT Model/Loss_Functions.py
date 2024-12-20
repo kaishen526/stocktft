@@ -1,13 +1,3 @@
-# ---------------------------------------------------#
-#
-#   File       : Loss_Functions.py
-#   Author     : Soham Deshpande
-#   Date       : December 2021
-#   Description: Quantile Loss, Normalised Quantile Loss
-#                and Poisson Loss
-#
-#
-# ----------------------------------------------------#
 
 import Activation_functions
 from Imports import *

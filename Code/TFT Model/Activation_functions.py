@@ -1,14 +1,3 @@
-# ---------------------------------------------------#
-#
-#   File       : Activation_Functions.py
-#   Author     : Soham Deshpande
-#   Date       : June 2021
-#   Description: All activation functions needed
-#
-#
-#
-# ----------------------------------------------------#
-
 import numpy as np
 # refer to write up for graph vs computing values
 # refer to write up for maths and derivation

@@ -1,20 +1,3 @@
-#----------------------------------------------------#
-#
-#   File       : Dbtopy.py
-#   Author     : Soham Deshpande
-#   Date       : January 2022
-#   Description: Extract data from the database
-#
-#
-#
-# ----------------------------------------------------#
-
-import psycopg
-import numpy as numpy
-import pandas as pd
-
-
-
 def DBExtraction():
     """
     Database Extraction

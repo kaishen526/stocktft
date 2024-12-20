@@ -1,14 +1,3 @@
-#----------------------------------------------------#
-#
-#   File       : TemporalLayer.py
-#   Author     : Soham Deshpande
-#   Date       : January 2022
-#   Description: Temporal Layer
-#
-#
-#
-# ----------------------------------------------------#
-
 from Imports import nn
 
 

@@ -1,14 +1,3 @@
-# ---------------------------------------------------#
-#
-#   File       : LSTM.py
-#   Author     : Soham Deshpande
-#   Date       : October 2021
-#   Description: Long-Short Term Memory Block
-#
-#
-#
-# ----------------------------------------------------#
-
 import matplotlib.pyplot as plt
 import numpy as np
 from Activation_functions import *

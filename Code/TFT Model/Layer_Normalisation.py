@@ -1,13 +1,4 @@
-# ---------------------------------------------------#
-#
-#   File       : Layer_Normalisation.py
-#   Author     : Soham Deshpande
-#   Date       : December 2021
-#   Description: Layer Normalisation
-#
-#
-#
-# ----------------------------------------------------#
+
 from Imports import nn
 
 class LayerNormalisation(nn.Module):

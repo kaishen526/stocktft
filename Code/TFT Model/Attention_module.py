@@ -1,15 +1,4 @@
-#----------------------------------------------------#
-#
-#   File       : Attention Module.py
-#   Author     : Soham Deshpande
-#   Date       : January 2022
-#   Description: Interpretable MultiHead Attention
-#
-#
-#
-# ----------------------------------------------------#
 
-#from d2l import torch as d2l
 import torch.nn as nn
 import torch
 class MultiHeadAttention(nn.Module):

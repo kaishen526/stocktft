@@ -1,16 +1,3 @@
-# ---------------------------------------------------#
-#
-#   File       : Time_Distributed.py
-#   Author     : Soham Deshpande
-#   Date       : July 2021
-#   Description: A wrapper that applies to a layer to
-#                every temporal slice of an input
-#
-#
-
-# ----------------------------------------------------#
-
-
 import torch.nn as nn
 
 

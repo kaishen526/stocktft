@@ -1,16 +1,3 @@
-# ---------------------------------------------------#
-#
-#   File       : Data-Preprocessing.py
-#   Description: Functions for cleaning and preparing data frames
-#                for the Temporal Fusion Transformer pipeline.
-#
-#   Changes:
-#   - Removed hard-coded CSV paths and reading from files directly.
-#   - Removed manual normalization steps (TimeSeriesDataSet and model handle scaling).
-#   - Preserved date/time indexing and ensured data integrity.
-#
-# ----------------------------------------------------#
-
 import pandas as pd
 
 def preprocess_dataframe(df):

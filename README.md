@@ -11,7 +11,7 @@
 We present a stock prediction framework using Temporal Fusion Transformers (TFT) that inte grates historical market data with sentiment sig nals from financial news and social media. Our model demonstrates strong generalization capa bilities when trained on multiple energy sector stocks. Starting with single-stock predictions, we expand to a dataset of 50 NYSE/NASDAQ-listed energy stocks with market caps exceeding 1000M. Results show that multi-stock training enables the model to capture broader sector trends and generate reliable predictions for both seen and un seen stocks. The framework processes daily price data, fundamental metrics, and sentiment analysis from Alpha Vantage and Reddit’s WallStreetBets, providing probabilistic forecasts through an inter active interface.
 
 
-The project write up can be read in Writeup.
+The project write up can be read in Writeup/Written up Report.pdf
  
 Use intructions:
       1. pip install -r requirements.txt

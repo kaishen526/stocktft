@@ -1,0 +1,222 @@
+attention_head_size: 8
+categorical_groups: {}
+causal_attention: true
+dropout: 0.05
+embedding_labels:
+  stock_id:
+    ACDC: 0
+    AESI: 1
+    AM: 2
+    APA: 3
+    AR: 4
+    ARLP: 5
+    AROC: 6
+    BKV: 7
+    BSM: 8
+    BTE: 9
+    BTU: 10
+    BWLP: 11
+    CCJ: 12
+    CEIX: 13
+    CHRD: 14
+    CHX: 15
+    CIVI: 16
+    CLMT: 17
+    CMBT: 18
+    CNX: 19
+    CQP: 20
+    CRC: 21
+    CRGY: 22
+    CRK: 23
+    CSAN: 24
+    CTRA: 25
+    CVE: 26
+    CVI: 27
+    DHT: 28
+    DINO: 29
+    DK: 30
+    DKL: 31
+    DMLP: 32
+    DNN: 33
+    DTM: 34
+    DVN: 35
+    EC: 36
+    EFXT: 37
+    ENLC: 38
+    EQT: 39
+    EXE: 40
+    FLNG: 41
+    FRO: 42
+    GEL: 43
+    GLP: 44
+    GPOR: 45
+    HAFN: 46
+    HAL: 47
+    HESM: 48
+    HLX: 49
+    HP: 50
+    HPK: 51
+    IMO: 52
+    INSW: 53
+    KGS: 54
+    KNTK: 55
+    KOS: 56
+    KRP: 57
+    LBRT: 58
+    LEU: 59
+    LPG: 60
+    MGY: 61
+    MNR: 62
+    MTDR: 63
+    MUR: 64
+    NEXT: 65
+    NFE: 66
+    NOG: 67
+    NOV: 68
+    NRP: 69
+    NXE: 70
+    OII: 71
+    OVV: 72
+    PAA: 73
+    PAGP: 74
+    PBA: 75
+    PBF: 76
+    PEYUF: 77
+    PR: 78
+    PTEN: 79
+    RES: 80
+    RRC: 81
+    SDRL: 82
+    SEI: 83
+    SM: 84
+    SOBO: 85
+    SOC: 86
+    STNG: 87
+    STR: 88
+    SUN: 89
+    TALO: 90
+    TDW: 91
+    TGS: 92
+    TNK: 93
+    TPL: 94
+    TRGP: 95
+    TRMD: 96
+    TS: 97
+    UEC: 98
+    UGP: 99
+    USAC: 100
+    UUUU: 101
+    VAL: 102
+    VET: 103
+    VIST: 104
+    VNOM: 105
+    VRN: 106
+    VTLE: 107
+    WDS: 108
+    WES: 109
+    WHD: 110
+    WKC: 111
+    WTTR: 112
+    XPRO: 113
+    YPF: 114
+embedding_paddings: []
+embedding_sizes:
+  stock_id: !!python/tuple
+  - 115
+  - 23
+hidden_continuous_size: 16
+hidden_continuous_sizes: {}
+hidden_size: 128
+learning_rate: 0.001
+log_gradient_flow: false
+log_interval: -1
+log_val_interval: null
+lstm_layers: 3
+max_encoder_length: 60
+monotone_constaints: {}
+optimizer: ranger
+optimizer_params: null
+output_size: 3
+output_transformer: !!python/object:pytorch_forecasting.data.encoders.EncoderNormalizer
+  center: true
+  center_: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f4
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    vesuQA==
+  max_length: null
+  method: standard
+  scale_: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AgAA4HLD7z8=
+  transformation: null
+reduce_on_plateau_min_lr: 1.0e-05
+reduce_on_plateau_patience: 4
+reduce_on_plateau_reduction: 2.0
+share_single_variable_networks: false
+static_categoricals:
+- stock_id
+static_reals:
+- DividendRate
+- MarketCap
+- PERatio
+- PriceToBook
+- DebtToEquity
+- ShortRatio
+- AnalystTargetPrice
+- encoder_length
+time_varying_categoricals_decoder: []
+time_varying_categoricals_encoder: []
+time_varying_reals_decoder:
+- relative_time_idx
+time_varying_reals_encoder:
+- relative_time_idx
+- High
+- Low
+- Close
+- Volume
+- OBV
+weight_decay: 0.0
+x_categoricals:
+- stock_id
+x_reals:
+- DividendRate
+- MarketCap
+- PERatio
+- PriceToBook
+- DebtToEquity
+- ShortRatio
+- AnalystTargetPrice
+- encoder_length
+- relative_time_idx
+- High
+- Low
+- Close
+- Volume
+- OBV
